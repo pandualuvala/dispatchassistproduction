@@ -24,7 +24,9 @@
   <link rel="stylesheet" href="../../dist/css/mystyles.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="../../dist/css/skins/skin-blue.css">
+  <link rel="stylesheet" href="../../dist/css/skins/skin-blue.min.css">
+  <link rel="stylesheet" href="../../dist/css/mystyles.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -319,11 +321,11 @@
                   </div>
                 </div>   
               </div>
-              <div>
+              <div >
                       <label>Scheduled Time & Date</label>
-                      <div class="input-group">
+                      <div class="input-group clearfix">
                       <div class="input-group-addon">
-                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <i class="fa fa-phone"></i>
                       </div>
                       <input type="text" class="form-control" name="daterange" value="01/01/2015 1:30 PM - 01/01/2015 2:00 PM" />
                       </div>
@@ -414,9 +416,9 @@
                 </div>
                 
               </div>
-              <div>
+              <div >
                       <label>Scheduled Time & Date</label>
-                      <div class="input-group">
+                      <div class="input-group clearfix">
                       <div class="input-group-addon">
                         <i class="fa fa-phone"></i>
                       </div>
@@ -548,22 +550,22 @@
 <!-- ./wrapper -->
 
 
-<!-- jQuery 3 -->
-<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
-<!-- Bootstrap 3.3.7 -->
-<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- AdminLTE App -->
-<script src="../../dist/js/adminlte.min.js"></script>
-<script src="../../dist/js/adminlte.js"></script>
 <!-- Include Required Prerequisites -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+
+<!-- jQuery 3 -->
+<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+
+<!-- Bootstrap 3.3.7 -->
+<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.js"></script>
 <script src="../../dist/js/adminlte.min.js"></script>
 
 
-
-<!-- Include Date Range Picker -->
-<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
 <script type="text/javascript">
 $(function() {
     $('input[name="daterange"]').daterangepicker({
