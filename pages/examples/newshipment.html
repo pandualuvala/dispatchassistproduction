@@ -24,9 +24,7 @@
   <link rel="stylesheet" href="../../dist/css/mystyles.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="../../dist/css/skins/skin-blue.css">
-  <link rel="stylesheet" href="../../dist/css/skins/skin-blue.min.css">
-  <link rel="stylesheet" href="../../dist/css/mystyles.css">
+  <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -223,7 +221,14 @@
               <small class="label pull-right bg-yellow">4</small>
             </span>
           </a>
-        </li>   
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-truck"></i> <span>Load Board</span>
+            <span class="pull-right-container">
+            </span>
+          </a>
+        </li>
         <li class="header">LABELS</li>
         <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
         <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
@@ -261,7 +266,7 @@
             <div class="box-body">
               <div class="form-group">
                   <label>Name</label>
-                  <input id="search_term" type="text" class="form-control"  placeholder="Start Typing">
+                  <input type="text" class="form-control"  placeholder="Start Typing">
               </div>
               <div class="form-group">
                   <label>Address</label>
@@ -321,11 +326,11 @@
                   </div>
                 </div>   
               </div>
-              <div >
+              <div>
                       <label>Scheduled Time & Date</label>
-                      <div class="input-group clearfix">
+                      <div class="input-group">
                       <div class="input-group-addon">
-                        <i class="fa fa-phone"></i>
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
                       </div>
                       <input type="text" class="form-control" name="daterange" value="01/01/2015 1:30 PM - 01/01/2015 2:00 PM" />
                       </div>
@@ -416,9 +421,9 @@
                 </div>
                 
               </div>
-              <div >
+              <div>
                       <label>Scheduled Time & Date</label>
-                      <div class="input-group clearfix">
+                      <div class="input-group">
                       <div class="input-group-addon">
                         <i class="fa fa-phone"></i>
                       </div>
@@ -550,21 +555,22 @@
 <!-- ./wrapper -->
 
 
+<!-- jQuery 3 -->
+<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+<script src="../../dist/js/adminlte.js"></script>
 <!-- Include Required Prerequisites -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 
-<!-- jQuery 3 -->
-<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
-
-<!-- Bootstrap 3.3.7 -->
-<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- Include Date Range Picker -->
-<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
-<!-- AdminLTE App -->
-<script src="../../dist/js/adminlte.js"></script>
 <script src="../../dist/js/adminlte.min.js"></script>
 
+
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
 
 <script type="text/javascript">
 $(function() {
@@ -578,3 +584,5 @@ $(function() {
 });
 </script>
 <!-- Include Date Range Picker -->
+
+
