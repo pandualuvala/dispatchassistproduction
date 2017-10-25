@@ -1126,9 +1126,6 @@ throw new Error('AdminLTE requires jQuery')
 
 }(jQuery)
 
-$( "add-stop-btn" ).click(function() {
-  alert( "Handler for .click() called." );
-});
 
 
 
