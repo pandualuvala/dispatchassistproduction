@@ -257,7 +257,9 @@
     <section class="content">
 
     <!-- PickUp box -->  
-      <div class="box box-success" >
+      <div class="row form-group">
+        <div class="col-sm-6">
+                  <div class="box box-primary" >
             <div class="box-header with-border">
               <h3 class="box-title">Pick Up Details</h3>
             </div>
@@ -270,9 +272,8 @@
                   <label>Address</label>
                   <input type="text" class="form-control" placeholder="Pickup Address">
               </div>
-              <div class="form-group">
-              <div class="row">
-                    <div class="col-sm-6">
+              <div class=" row form-group">
+                <div class="col-sm-6">
                       <div>
                       <label>Contact</label>
                       <div class="input-group">
@@ -294,7 +295,7 @@
                       </div>
                       </div> 
                     </div>
-              </div>
+             
               </div>        
               <div class="row">
                 <div class="col-sm-4">
@@ -347,10 +348,9 @@
             
         <!-- /.box-footer-->
       </div>
-      <!-- Add Stop BOX-->    
-      
-     <!-- New Delivery box --> 
-      <div class="box box-warning">
+        </div>
+        <div class="col-sm-6">
+                <div class="box box-primary">
             <div class="box-header with-border">
               <h3 class="box-title">Delivery Details</h3>
             </div>
@@ -442,7 +442,16 @@
             
         <!-- /.box-footer-->
       </div>
-        <div class="box box-success">
+        </div>
+      </div>
+
+      <!-- Add Stop BOX-->    
+      
+     <!-- New Delivery box --> 
+
+        <div class="row form-group">
+            <div class="col-sm-6">
+                    <div class="box box-primary">
             <div class="box-header with-border">
               <h3 class="box-title">Broker Details</h3>
             </div>
@@ -450,7 +459,7 @@
                 <div class="input-group">
                     <input type="text" name="q" class="form-control" placeholder="Search...">
                     <span class="input-group-btn">
-                    <button type="submit" name="search" id="search-btn" class="btn btn-info"><i class="fa fa-search"></i>
+                    <button type="submit" name="search" id="search-btn" class="btn btn-primary"><i class="fa fa-search"></i>
                     </button>
                     </span>
                 </div>
@@ -493,8 +502,10 @@
             </div>
             
         <!-- /.box-footer-->
-      </div>
-      <div class="box box-info">
+      </div>  
+            </div>
+            <div class="col-sm-6">
+                     <div class="box box-primary">
             <div class="box-header with-border">
               <h3 class="box-title">Driver Details</h3>
             </div>
@@ -502,12 +513,41 @@
                 <div class="input-group">
                     <input type="text" name="q" class="form-control" placeholder="Search by name or emailID">
                     <span class="input-group-btn">
-                    <button type="submit" name="search" id="search-btn" class="btn btn-info"><i class="fa fa-search"></i>
+                    <button type="submit" name="search" id="search-btn" class="btn btn-primary"><i class="fa fa-search"></i>
                     </button>
                     </span>
                 </div>
-                <hr>
+                
               <div class="form-group">
+              <div>
+                <div class="row">
+                  <div class="col-sm-6">
+                      <div>
+                      <label>Name</label>
+                      <div class="input-group">
+                      <div class="input-group-addon">
+                        <i class="fa fa-user"></i>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Driver Name" disabled>
+                      </div>
+                      </div> 
+                    </div> 
+                    <div class="col-sm-6">
+                      <div>
+                      <label>Phone Number</label>
+                      <div class="input-group">
+                      <div class="input-group-addon">
+                        <i class="fa fa-phone"></i>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Phone Number">
+                      </div>
+                          
+                      </div> 
+                    </div>
+              </div>
+              </div>  
+                  
+                  
               <div class="row">
                     <div class="col-sm-6">
                       <div>
@@ -529,19 +569,26 @@
                       </div>
                       <input type="text" class="form-control" placeholder="Phone Number">
                       </div>
+                          
                       </div> 
                     </div>
               </div>
               </div>
                 
             </div>
+             
             <!-- /.box-body -->
             <div class="box-footer">
               <button type="submit" class="btn btn-success pull-right">Save</button>
             </div>
             
         <!-- /.box-footer-->
-      </div>
+      </div> 
+                
+            </div>
+        </div>
+  
+
         
     
     <div class="box-footer ">
